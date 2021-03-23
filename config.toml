@@ -49,3 +49,7 @@ series = "series"
 
   [services.twitter]
     disableInlineCSS = true
+
+[module]
+     [[module.imports]]
+        path = "github.com/danielfdickinson/hugoMinimalTestTheme"
