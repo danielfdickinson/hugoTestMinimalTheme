@@ -53,3 +53,6 @@ series = "series"
 [module]
      [[module.imports]]
         path = "github.com/danielfdickinson/hugoMinimalTestTheme"
+
+#[params]
+#    debugExpandPage = true
