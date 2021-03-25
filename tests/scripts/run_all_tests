@@ -1,0 +1,35 @@
+#!/bin/sh
+
+OTS=SUCCESS
+
+PATH="$PATH:./node_modules/.bin"
+export PATH
+
+
+if [ "$OTS" != "FAIL" ]; then
+	for tscript in "$(pwd)"/tests/scripts/t[0-9][0-9]*.sh; do
+		if [ -d ./exampleSite ]; then
+			cd ./exampleSite
+			if ! $tscript; then
+				OTS=FAIL
+				cd ..
+				break
+			fi
+			cd ..
+		else
+			if ! $tscript; then
+				OTS=FAIL
+				break
+			fi
+		fi
+	done
+fi
+
+if [ "$OTS" = "FAIL" ]; then
+	echo "FAIL: Build failed"
+	exit 3
+else
+	echo "PASS: Build succeeded"
+fi
+
+exit 0
