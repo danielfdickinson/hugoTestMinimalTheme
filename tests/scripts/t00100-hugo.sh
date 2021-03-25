@@ -3,11 +3,11 @@
 TS=PASS
 
 if [ -n "$(command -v hugo-basic)" ]; then
-	hugo-basic || TS=FAIL
+	hugo-basic --path-warnings || TS=FAIL
 elif [ -n "$(command -v hugo-extended)" ]; then
-	hugo-extended || TS=FAIL
+	hugo-extended --path-warnings || TS=FAIL
 else
-	hugo || TS=FAIL
+	hugo --path-warnings || TS=FAIL
 fi
 
 echo "$TS: Generate site with Hugo"
