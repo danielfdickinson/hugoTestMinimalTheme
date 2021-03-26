@@ -62,5 +62,6 @@ series = "series"
 
       unsafe = true
 
-#[params]
+[params]
 #    debugExpandPage = true
+#    debugTableEnvironment = ["production","development"]
