@@ -5,6 +5,16 @@ date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
+## From hugoMinimalTestTheme README
+
+A minimum test theme to generate the full site of unstyled pages for https://github.com/gohugoio/hugoBasicExample (and other Hugo sites).
+
+Includes the ability to enable less minimal features via custom layouts (with thanks to members of the [Hugo Forum](https://discourse.gohugo.io) for their suggestions).
+
+The purpose of the repo is not for CI or automated testing, but to have a set of layouts for creating minimum reproducible test cases for reporting bugs to the Hugo developers.
+
+The site content is mostly from the [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample) demonstration site by the Steve Francia and the Hugo Authors
+## From hugoBasicExample About page
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
