@@ -68,4 +68,5 @@ series = "series"
 
 [params]
 #  debugExpandPage = true
+#  testStylesInclude = false
   debugTableEnvironment = ["production","development"]
