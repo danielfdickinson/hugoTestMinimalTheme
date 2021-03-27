@@ -217,6 +217,7 @@ Two types of classes available:
 | linkbar-test-min            | A highlighted bar with link                 |
 | list-test-min               | An generic list                             |
 | list-item-test-min          | A generic list item                         |
+| list-item-label-test-min    | A label to display before the current list item |
 | main-test-min               | Wraps main content                          |
 | menubar-test-min            | A menu bar                                  |
 | nav-site-page-test-min      | Site page navigation bar                    |
