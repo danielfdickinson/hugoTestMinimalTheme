@@ -1,6 +1,6 @@
 baseURL = "https://hugo-minimal-test-theme-demo.wildtechgarden.ca/"
 title = "Hugo Minimal Test Theme Demo"
-copyright = "Copyright © 2008–2021, Steve Francia, the Hugo Authors, and Daniel F. Dickinson; all rights reserved."
+copyright = "Copyright © 2008–2021 Steve Francia, the Hugo Authors, and Daniel F. Dickinson; all rights reserved."
 description = "Based on Hugo Themes (basicHugoExample) site"
 paginate = 3
 languageCode = "en"
