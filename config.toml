@@ -70,3 +70,7 @@ series = "series"
 #  debugExpandPage = true
   testStylesInclude = true
   debugTableEnvironment = ["production","development"]
+
+[frontmatter]
+  lastmod = ["lastmod",":git","date","publishDate","fileModTme"]
+  date = ["publishDate","date","lastmod",":git",":fileModTime"]
