@@ -30,19 +30,19 @@ Obviously for ``feature-layout`` use the layout from the table below.
 | Feature                        | feature-layout        | Applies to              | Description |
 |--------------------------------|-----------------------|-------------------------|-------------|
 | Custom Layout Testing          | custom                | sections and single     | A generic custom layout (just announces it is a custom layout with a heading) that will work with both a section and a single page.          |
-| Layout Order Testing           | layout-order          | sections and single     | A section page should display the section ``layout-order`` layout not the single ``layout-order`` layout. A single page should display the single page ``layout-order`` layout |
-| Layout Section Order Testing   | layout-section-order   | sections and single     | A section page should display a section ``layout-section-order`` layout not the single ``layout-section-order`` layout for both typical sections and special ``custom-section-layout-test`` section. A single page should display the single page ``layout-section-order`` layout for both typical sections and a special ``custom-section-layout-test``section |
+| Layout Order Testing           | layout-order          | sections and single     | A section page should display the section ``layout-order`` layout not the single page``layout-order`` layout. A single page should display the single page ``layout-order`` layout (the title will indicate which it is) |
+| Layout Section Order Testing   | layout-section-order   | sections and single     | A section page should display a section ``layout-section-order`` layout not the single  page``layout-section-order`` layout for both typical sections as well as for pages in the special ``custom-section-layout-test`` section (directory). A single page should display the single page ``layout-section-order`` layout for both typical sections and a page in the special ``custom-section-layout-test`` section (directory). Once again the title will indicate which layout is in use. |
 | Pagination                     | pagination            | section/list pages only | Displays a section as a list of the pages (both regular pages and section pages) in a section, dividing the list of pages in a section into separate sub-pages, each containing at most the number of pages from the section that is defined in the config's ``pagination`` setting (default 10). |
 
 ### Custom Sections
 
-* Currently only ``custom-section-layout-test`` has special layouts (see "Layout Section Order Testing") above although the section also has 'standalone' (i.e. without layout ``layout-section-order`` required).
+* Currently only ``custom-section-layout-test`` has special layouts one can choose to use with the section pages, or pages in the section (see "Layout Section Order Testing" above), although the section also has 'standalone' layout (i.e. without layout ``layout-section-order`` required).
 
 ### Custom Taxonomy
 
 * Currently only ``taxonomy-test-taxonomy``
 * To use it:
-  * In ``config.toml`` have a section such as the followings (with the appropriate taxonomies for your site):
+  * In ``config.toml`` have a section such as the following (with the appropriate taxonomies for your site):
     ```
     [taxonomies]
       category = "categories"
@@ -198,15 +198,42 @@ Two types of classes available:
 
 | Class                       | Description                                 |
 |-----------------------------|---------------------------------------------|
+| about-button-contents-test-min | Contents to display on about button action |
+| about-button-contents-title-test-min | Title of contents to display on about button action |
+| about-button-test-min       | An about button on homepage                 |
+| about-button-text-min       | Text that appears on about button           |
+| about-buttons-wrapper-test-min | Wrapper around about buttons on homepage |
 | bar-test-min                | A full width bar                            |
+| copyright-info-test-min     | Copyright information for _site_            |
+| count-test-min              | A count (number of items) of something      |
+| current-menu-has-test-min   | Menu item is an ancestor of the item for the current page |
+| current-menu-is-test-min    | Menu item is for the current page           |
+| details-test-min            | A openable details element                  |
+| footer-infobar-test-min     | Page footer with extra information          |
+| header-test-min             | Page header                                 |
 | heading-general-test-min    | A general heading (typically not an hX element) |
+| link-wrapper-test-min       | Wrapper around a link                       |
+| link-test-min               | A link                                      |
+| linkbar-test-min            | A highlighted bar with link                 |
+| list-test-min               | An generic list                             |
+| list-item-test-min          | A generic list item                         |
+| main-test-min               | Wraps main content                          |
 | menubar-test-min            | A menu bar                                  |
-| navbar-test-min             | A navigation bar                            |
+| nav-site-page-test-min      | Site page navigation bar                    |
+| nav-taxonomies-test-min     | Taxonomies navigation bar                   |
+| none-test-min               | Indicates no link present a link may or may not be present |
+| powered-by-wrapper-test-min | Wrapper around powered by this theme 'element' |
+| section-list-test-min       | A list for pages in a section               |
+| summary-test-min            | The visible description text for a closed details element |
+| time-test-min               | A date and/or time element                  |
+| title-top-level-test-min    | Page title (only h1 element)                |
+
 
 ### Category/Purpose Classes
 
 | Class                       | Description                                 |
 |-----------------------------|---------------------------------------------|
-| test-main-min               | Wraps main content                          |
+| highlight                   | Hugo generated wrapper around syntax highlighted preformatted code |
 | test-mainmenu-min           | Main menu (bar)                             |
+| test-scrollable-min         | A region that is to be scrollable           |
 | test-warningold-min         | Indicates warning about old browser         |
