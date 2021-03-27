@@ -14,6 +14,8 @@ for htfile in $htfiles; do
 		if [ "$RC" = "2" ]; then
 			echo "FAIL: Linting (tidy) for $htfile"
 			exit 3
+		elif [ "$RC" = "1" ]; then
+			echo "WARN: Linting (tidy) for $htfile"
 		fi
 	fi
 done
