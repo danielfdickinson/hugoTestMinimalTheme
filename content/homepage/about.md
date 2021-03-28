@@ -1,7 +1,9 @@
 ---
-title: 'Our Difference'
+title: 'The Royal "we"'
 button: 'About us'
-weight: 2
+weight: 10
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Ipsum dolor sit amet, et essent mediocritatem quo.
+The theme and debug tables this site is mean to showcase are the creation of [Daniel F. Dickinson](https://www.danielfdickinson.ca) who also has a tech site call [Wild Tech "Garden"](https://www.wildtechgarden.ca).
+
+The site itself began life as [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample) and has since been heavily modified by Daniel F. Dickinson.

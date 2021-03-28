@@ -1,7 +1,7 @@
 baseURL = "https://hugo-minimal-test-theme-demo.wildtechgarden.ca/"
 title = "Hugo Minimal Test Theme Demo"
-copyright = "Copyright © 2008–2021 Steve Francia, the Hugo Authors, and Daniel F. Dickinson; all rights reserved."
-description = "Based on Hugo Themes (basicHugoExample) site"
+copyright = "Copyright © 2008–2021 Steve Francia, the Hugo Authors, and Daniel F. Dickinson; all rights reserved. (Heavily modified by Daniel F. Dickinson)"
+description = "Demo site for hugoMinimalTestTheme, based on Hugo Themes (basicHugoExample) site"
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -12,8 +12,21 @@ ignoreErrors = ["error-remote-getjson"]
 enableGitInfo = true
 
 [author]
-  name = "Steve Francia"
-  email = "steve.francia@example.com"
+  name = "Daniel F. Dickinson"
+  email = "contact@danielfdickinson.ca"
+  homepage = "https://www.danielfdickinson.ca/"
+
+  [[ author.authors ]]
+    name = "Daniel F. Dickinson"
+    email = "contact@danielfdickinson.ca"
+    homepage = "https://www.danielfdickinson.ca/"
+
+  [[ author.authors ]]
+    name = "Steve Francia"
+    email = "steve.francia@example.com"
+
+  [[ author.authors ]]
+    name = "Hugo Authors"
 
 [menu]
 
@@ -24,9 +37,9 @@ enableGitInfo = true
     weight = 10
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [privacy]
 
@@ -60,15 +73,12 @@ series = "series"
         path = "github.com/danielfdickinson/hugoMinimalTestTheme"
 
 [markup]
-
   [markup.goldmark]
-
     [ markup.goldmark.renderer ]
-
       unsafe = true
 
 [params]
-#  debugExpandPage = true
+  debugExpandPage = true
   testStylesInclude = true
   debugTableEnvironment = ["production","development"]
 
