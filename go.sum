@@ -1,5 +1,8 @@
 github.com/danielfdickinson/hugoDebugTables v0.0.0-20210323134631-f97ccd0ad16d/go.mod h1:Je43lYmahaQs8IQIdSO4tVkeb/HcuCA0Th4C2bxkNAY=
-github.com/danielfdickinson/hugoDebugTables v0.1.0 h1:lVhj919Sp66MvfeIljMqmUw+1gMupN2nSNg1lv6EZ/M=
-github.com/danielfdickinson/hugoDebugTables v0.1.0/go.mod h1:Je43lYmahaQs8IQIdSO4tVkeb/HcuCA0Th4C2bxkNAY=
-github.com/danielfdickinson/hugoMinimalTestTheme v0.0.0-20210323153041-d6614ba52593 h1:uf3fSg/xkq/yK47XdNUFtoKSb5PQ2Ou1dcI1zkrO0Qo=
+github.com/danielfdickinson/hugoDebugTables v0.0.0-20210325145419-1f07d5c76f7e/go.mod h1:Je43lYmahaQs8IQIdSO4tVkeb/HcuCA0Th4C2bxkNAY=
+github.com/danielfdickinson/hugoDebugTables v0.1.3/go.mod h1:Je43lYmahaQs8IQIdSO4tVkeb/HcuCA0Th4C2bxkNAY=
 github.com/danielfdickinson/hugoMinimalTestTheme v0.0.0-20210323153041-d6614ba52593/go.mod h1:IaZ3TTnKaeDiKXvddorZbIzzCW6A72orhVct/8pMNB8=
+github.com/danielfdickinson/hugoMinimalTestTheme v0.1.0 h1:TsKJO30pPmHn4zQE1nnQyWoOwsBJDQoXdHEEX/skj9E=
+github.com/danielfdickinson/hugoMinimalTestTheme v0.1.0/go.mod h1:zi/NhH1bff26lvtdBuVdZYFek5oOv53QTHta6Vsi/eE=
+github.com/danielfdickinson/hugoMinimalTestTheme v0.1.1-0.20210328040138-f61993699399 h1:1eo1V7p5r9OnSFvoukQoTBrsaQ4H/tLAyk2em6hguvA=
+github.com/danielfdickinson/hugoMinimalTestTheme v0.1.1-0.20210328040138-f61993699399/go.mod h1:yh9NE0T1smUqltbpUym0dEc0s5N+u/rLXwdnnQlxKwE=
