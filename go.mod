@@ -1,8 +1,5 @@
-module github.com/danielfdickinson/gohugoio-hugoBasicExample
+module github.com/danielfdickinson/hugoTestMinimalTheme
 
 go 1.14
 
-require (
-	github.com/danielfdickinson/hugoDebugTables v0.1.3 // indirect
-	github.com/danielfdickinson/hugoMinimalTestTheme v0.1.1-0.20210328131927-49088fafb64a // indirect
-)
+require github.com/danielfdickinson/hugoMinimalTestTheme v0.2.0 // indirect
