@@ -9,6 +9,7 @@ enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
+enableGitInfo = true
 
 [author]
   name = "Steve Francia"
@@ -72,5 +73,6 @@ series = "series"
   debugTableEnvironment = ["production","development"]
 
 [frontmatter]
-  lastmod = ["lastmod",":git","date","publishDate","fileModTme"]
-  date = ["publishDate","date","lastmod",":git",":fileModTime"]
+  lastmod = ["lastmod",":fileModTime",":git","date","publishDate"]
+  date = ["date","publishDate","lastmod",":git",":fileModTime"]
+  publishDate = ["publishDate","date","lastmod",":git",":fileModTime"]
