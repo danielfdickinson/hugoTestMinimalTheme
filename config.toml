@@ -81,6 +81,7 @@ enableGitInfo = true
   debugExpandPage = true
   testStylesInclude = true
   debugTableEnvironment = ["production","development"]
+  mainSections = ["post","docs"]
 
 [frontmatter]
   lastmod = ["lastmod",":fileModTime",":git","date","publishDate"]
