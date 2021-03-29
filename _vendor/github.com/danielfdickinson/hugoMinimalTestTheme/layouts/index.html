@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <div class="about-buttons-wrapper-test-min">
+    {{ $headless := .Site.GetPage "/homepage" }}
+    {{ with $headless }}
+        {{ $buttonPages := $headless.Resources.Match "*" }}
+        {{ range $buttonPages -}}
+            <div class="about-button-test-min">
+                <span class="about-button-text-test-min">{{ default .Title .Params.button }}</span>
+                <div class="about-button-contents-test-min">
+                    <h2 class="about-button-contents-title-test-min">{{ .Title }}</h2>
+                    {{ .Content }}
+                </div>
+            </div>
+        {{- end -}}
+    {{ end }}
+    </div>
+ {{ end }}

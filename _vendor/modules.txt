@@ -1,0 +1,2 @@
+# github.com/danielfdickinson/hugoMinimalTestTheme v0.2.2
+# github.com/danielfdickinson/hugoDebugTables v0.1.3
