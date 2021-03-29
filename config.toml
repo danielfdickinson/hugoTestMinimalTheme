@@ -78,7 +78,7 @@ enableGitInfo = true
       unsafe = true
 
 [params]
-  debugExpandPage = true
+#  debugExpandPage = true
   testStylesInclude = true
   debugTableEnvironment = ["production","development"]
   mainSections = ["post","docs"]
