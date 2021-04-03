@@ -16,7 +16,7 @@ This repository offers an example site for [hugoMinimalTestTheme](https://hugo-m
 2. Clone this repository
 
 ```bash
-git clone https://github.com/danielfdickinson/hugoTestMinimalTheme.git
+git clone https://git.wildtechgarden.ca/danielfdickinson/hugoTestMinimalTheme.git
 cd hugoTestMinimalTheme
 ```
 3. Run Hugo local server
@@ -45,7 +45,7 @@ The site content is mostly from the [hugoBasicExample](https://github.com/gohugo
 
 ### Obtaining hugoMinimalTestTheme
 
-You can get it from <https://github.com/danielfdickinson/hugoMinimalTestTheme>.
+You can get it from <https://git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme>.
 ## From hugoBasicExample About page
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
