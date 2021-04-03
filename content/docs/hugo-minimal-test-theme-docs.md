@@ -83,7 +83,7 @@ add ``{{\< hello-world>}}`` to a **content** file (not template).
    ```
    hugo server -b http://localhost:1313/
    ```
-### Using downloaded copy of the theme (e.g. Zip from Github)
+### Using downloaded copy of the theme (e.g. Zip from the Git repo)
 
 1. Make a themes directory and switch to it
    ```
@@ -91,7 +91,7 @@ add ``{{\< hello-world>}}`` to a **content** file (not template).
    cd themes
    ```
 
-2. Obtain a copy of the theme e.g. ([a theme Zip file from Github](https://git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme/archive/master.zip))
+2. Obtain a copy of the theme e.g. ([a theme Zip file from the Git repo](https://git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme/archive/master.zip))
 3. Copy/extract the theme into hugoMinimalTestTheme in the themes directory
 4. Change back to the site directory
 5. To test the result, run the local Hugo server
