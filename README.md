@@ -8,7 +8,7 @@ This repository offers an example site for [hugoMinimalTestTheme](https://hugo-m
 2. Clone this repository
 
 ```bash
-git clone https://github.com/danielfdickinson/hugoTestMinimalTheme.git
+git clone https://git.wildtechgarden.ca/danielfdickinson/hugoTestMinimalTheme.git
 cd hugoTestMinimalTheme
 ```
 3. Run Hugo local server

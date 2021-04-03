@@ -1,5 +1,3 @@
-github.com/danielfdickinson/hugoDebugTables v0.1.3/go.mod h1:Je43lYmahaQs8IQIdSO4tVkeb/HcuCA0Th4C2bxkNAY=
-github.com/danielfdickinson/hugoMinimalTestTheme v0.2.2 h1:ac/6yDP8FKZSiEyQ7kbSoN9l5L99sn930meT9p9SGQ0=
-github.com/danielfdickinson/hugoMinimalTestTheme v0.2.2/go.mod h1:yh9NE0T1smUqltbpUym0dEc0s5N+u/rLXwdnnQlxKwE=
-github.com/danielfdickinson/hugoMinimalTestTheme v0.2.4 h1:l0HSi+cIGD6LlIRRM+QNUPRxtebtYZ23V7z7y3ceiyc=
-github.com/danielfdickinson/hugoMinimalTestTheme v0.2.4/go.mod h1:yh9NE0T1smUqltbpUym0dEc0s5N+u/rLXwdnnQlxKwE=
+git.wildtechgarden.ca/danielfdickinson/hugoDebugTables v0.1.4-0.20210403155258-7e3bbb93124f/go.mod h1:sRMQnJz5EFsH61bAml8iVaHg7aQ/6LV5uRVm+NLWb3E=
+git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme v0.2.5-0.20210403155734-f3cdfb6c1b59 h1:6LJwirZEYHtPiahCOFSKk1BG5VL/SzM9LEEWThLPsB0=
+git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme v0.2.5-0.20210403155734-f3cdfb6c1b59/go.mod h1:zMmUvycSn0bFpEYSyvC1YtGEInagDaUmM+OmPYDcu7o=
