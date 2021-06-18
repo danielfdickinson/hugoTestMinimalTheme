@@ -1,5 +1,5 @@
-module git.wildtechgarden.ca/danielfdickinson/hugoTestMinimalTheme
+module github.com/danielfdickinson/hugoTestMinimalTheme
 
 go 1.14
 
-require git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme v0.2.6 // indirect
+require github.com/danielfdickinson/hugoMinimalTestTheme v0.2.11 // indirect

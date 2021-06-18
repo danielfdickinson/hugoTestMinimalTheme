@@ -70,7 +70,7 @@ enableGitInfo = true
 
 [module]
      [[module.imports]]
-        path = "git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme"
+        path = "github.com/danielfdickinson/hugoMinimalTestTheme"
 
 [markup]
   [markup.goldmark]

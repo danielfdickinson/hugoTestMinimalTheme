@@ -1,6 +1,4 @@
-git.wildtechgarden.ca/danielfdickinson/hugoDebugTables v0.1.4-0.20210403155258-7e3bbb93124f/go.mod h1:sRMQnJz5EFsH61bAml8iVaHg7aQ/6LV5uRVm+NLWb3E=
-git.wildtechgarden.ca/danielfdickinson/hugoDebugTables v0.1.4/go.mod h1:sRMQnJz5EFsH61bAml8iVaHg7aQ/6LV5uRVm+NLWb3E=
-git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme v0.2.5-0.20210403155734-f3cdfb6c1b59 h1:6LJwirZEYHtPiahCOFSKk1BG5VL/SzM9LEEWThLPsB0=
-git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme v0.2.5-0.20210403155734-f3cdfb6c1b59/go.mod h1:zMmUvycSn0bFpEYSyvC1YtGEInagDaUmM+OmPYDcu7o=
-git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme v0.2.6 h1:A0Fx0msolIg34fWB9b52jms2bcchAFQTmPk1euD6kOk=
-git.wildtechgarden.ca/danielfdickinson/hugoMinimalTestTheme v0.2.6/go.mod h1:TFhyK87+dX8GbLSFvg2mjjyl0WJwEteK0K6yOkzIN1w=
+github.com/danielfdickinson/hugoDebugTables v0.1.8 h1:SIPWet6cihsEUdUNRoedwGBXXbIL1ubGxgGDW/ZMwEA=
+github.com/danielfdickinson/hugoDebugTables v0.1.8/go.mod h1:Je43lYmahaQs8IQIdSO4tVkeb/HcuCA0Th4C2bxkNAY=
+github.com/danielfdickinson/hugoMinimalTestTheme v0.2.11 h1:nOQFNutQecFJQ8JcC5Y7wb9kOt4aqZK3mG0Nz45O10w=
+github.com/danielfdickinson/hugoMinimalTestTheme v0.2.11/go.mod h1:DmH2R79zV68QekUCMT8lBQ7fbK8YtVttNDk1GJ6ULvI=
