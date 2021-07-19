@@ -1,5 +1,11 @@
 # hugoTestMinimalTheme
 
+## ARCHIVED
+
+The has been replaced by [hugo-test-minimal-theme](https://github.com/danielfdickinson/hugo-test-minimal-theme).
+
+## Old Intro
+
 This repository offers an example site for [hugoMinimalTestTheme](https://hugo-minimal-test-theme-demo.wildtechgarden.ca) theme for [Hugo](https://gohugo.io/). It is began as a fork of [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample).
 
 ## Using
